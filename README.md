@@ -75,7 +75,6 @@ Le module `search` qui accompagne le cours est également disponible. Il permet 
 
 ## Travail 
 
-### Semaine 1
 **Prise en main**. A l'éxécution du fichier `main.py`, Observervation du comportement suivant: les joueurs sont placés au hasard sur la ligne du bas, puis ils se déplacent vers un restaurant choisi au hasard. On finalise une partie avec cette stratégie aléatoire, c'est-à-dire d'implémenter le calcul des points et d'itérer sur les journées de la partie.
 
 **Mise en place et test de différentes stratégies**. Il est possible de définir pour ce jeu : 
