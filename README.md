@@ -3,7 +3,7 @@ Template et instructions pour le projet 2025 IA et Jeux
 
 ## Présentation générale du projet
 
-On propose dans ce projet d'implémenter un jeu stratégique reprenant certaines des notions vues en cours. 
+On propose dans ce projet d'implémenter un jeu stratégique. 
 
 ### Phase de jeu principale
 Chaque jour, plusieurs joueurs (8 par défaut) disposés sur une carte effectuent un choix sur le restaurant où ils souhaitent aller, parmi les 5 qui sont accessibles dans le quartier. 
