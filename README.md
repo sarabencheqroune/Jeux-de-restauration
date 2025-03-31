@@ -69,27 +69,21 @@ Notez que vous pourrez ensuite éditer vos propres cartes à l'aide de l'éditeu
 Il est ensuite possible de changer la carte utilisée en modifiant le nom de la carte utilisée dans la fonction `init` du `main`:
 `name = _boardname if _boardname is not None else 'restaurant-map'``
 
-:warning: Vous n'avez pas à modifier le code de `pySpriteWorld`
-
 ### Module search
 
 Le module `search` qui accompagne le cours est également disponible. Il permet en particulier de créer des problèmes de type grille et donc d'appeler directement certains algorithmes de recherche à base d'heuristiques vus en cours, comme A:star: pour la recherche de chemin.
 
-## Travail demandé
+## Travail 
 
 ### Semaine 1
-**Prise en main**. A l'éxécution du fichier `main.py`, vous devez observer le comportement suivant: les joueurs sont placés au hasard sur la ligne du bas, puis ils se déplacent vers un restaurant choisi au hasard.
-:point_right: votre objectif lors de cette première séance est de finaliser une partie avec cette stratégie aléatoire, c'est-à-dire d'implémenter le calcul des points et d'itérer sur les journées de la partie.
+**Prise en main**. A l'éxécution du fichier `main.py`, Observervation du comportement suivant: les joueurs sont placés au hasard sur la ligne du bas, puis ils se déplacent vers un restaurant choisi au hasard. On finalise une partie avec cette stratégie aléatoire, c'est-à-dire d'implémenter le calcul des points et d'itérer sur les journées de la partie.
 
-### Semaine 2 et 3
 **Mise en place et test de différentes stratégies**. Il est possible de définir pour ce jeu : 
-* des stratégies **non-informées**: par exemple **tétu** (aller toujours au même restaurant), **stochastique** (choisir selon une distribution de proba fixe, ce qui généralise la stratégie aléatoire de la semaine 1) 
+* des stratégies **non-informées**: par exemple **tétu** (aller toujours au même restaurant), **stochastique** (choisir selon une distribution de proba fixe)
 * des stratégies **basées sur l'observation**, pendant la phase de délibération, de la situation : **greedy** (tester les restaurants, dans un ordre donné, et s'arrêter dans le premier qui ait une occupation en dessous d'un seuil donné),
 * des stratégies **basées sur l'historique**, qui s'appuient sur les expériences des tours précédents: par exemple **fictitious play**, **regret-matching**
 
 Il est évidemment possible de combiner ces différents pour obtenir des stratégies encore plus complexes. 
 
-### Semaine 4
-**Soutenances**. Celles-ci ont lieu en binôme. Vous présenterez les principaux résultats de votre projet. Il est attendu que vous compariez **au moins 6 stratégies**. Pour comparer les stratégies A vs B, vous supposerez qu'un joueur utilise la stratégie A alors que tous les autres utilisent la stratégie B. 
-Le rapport doit être rédigé en markdown dans le fichier prévu à cet effet dans le répertoire `docs` (voir le template `rapport.md`).
+**Soutenances**. Comparaison de **au moins 6 stratégies**. Pour comparer les stratégies A vs B, On suppose que la moitié des joueurs utilisent la stratégie A alors que tous les autres utilisent la stratégie B.
 
